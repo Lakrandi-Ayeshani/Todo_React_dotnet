@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*--------------------TODO------------------------ */
+* {
+  --bg-gray-50: rgb(249 250 251);
+  --bg-gray-100: rgb(243 244 246); 
+  --bg-gray-200: rgb(229 231 235);
+  --bg-gray-300: rgb(209 213 219); 
+  --bg-gray-400: rgb(156 163 175);
+  --bg-gray-500: rgb(107 114 128);
+  --bg-gray-600: rgb(75 85 99);
+  --bg-gray-700: rgb(55 65 81);
+  --bg-gray-800: rgb(31 41 55);
+  --bg-gray-900: rgb(17 24 39);
+  --bg-gray-950: rgb(3 7 18);
+}
+.todo {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-button {
+  border-radius: 100%;
+  padding: 12px 8px 12px 8px;
+  background-color: var(--bg-gray-500);
+  color: var(--bg-gray-100);
+  width: fit-content;
+  /* rounded-full py-3 px-2 bg-gray-500 text-gray-100 w-fit  */
+}
+
+.add-button:hover {
+  background-color: var(--bg-gray-300);
+  color: var(--bg-gray-500);
+}
+
+.add-button:active {
+  background-color: var(--bg-gray-500);
+  color: var(--bg-gray-100);
+}
+
+.icons {
+  border-radius: 100%;
+  /* padding: 12px 8px 12px 8px; */
+  background-color: var(--bg-gray-200);
+}
