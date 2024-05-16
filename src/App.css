@@ -52,7 +52,12 @@
   --bg-gray-800: rgb(31 41 55);
   --bg-gray-900: rgb(17 24 39);
   --bg-gray-950: rgb(3 7 18);
+  --bg-green-100: rgb(220 252 231);    
+  --bg-green-400: rgb(74 222 128);
+  --bg-green-600: rgb(22 163 74);
+  --bg-green-800: rgb(22 101 52);
 }
+
 .todo {
   display: flex;
   flex-direction: row;
@@ -61,20 +66,20 @@
 .add-button {
   border-radius: 100%;
   padding: 12px 8px 12px 8px;
-  background-color: var(--bg-gray-500);
+  background-color: var(--bg-green-600);
   color: var(--bg-gray-100);
   width: fit-content;
   /* rounded-full py-3 px-2 bg-gray-500 text-gray-100 w-fit  */
 }
 
 .add-button:hover {
-  background-color: var(--bg-gray-300);
-  color: var(--bg-gray-500);
+  background-color: var(--bg-green-400);
+  color: var(--bg-green-100);
 }
 
 .add-button:active {
-  background-color: var(--bg-gray-500);
-  color: var(--bg-gray-100);
+  background-color: var(--bg-green-800);
+  color: var(--bg-green-100);
 }
 
 .icons {
@@ -82,3 +87,11 @@
   /* padding: 12px 8px 12px 8px; */
   background-color: var(--bg-gray-200);
 }
+
+/* .input:hover{
+  border: solid 1px red;
+}
+
+.input: {
+  background-color: red;
+} */
